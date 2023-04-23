@@ -21,7 +21,6 @@ target "awscli2" {
   platforms = [
     "linux/amd64",
     "linux/arm64",
-    "linux/arm64/v8"
   ]
   inherits = ["_common"]
   dockerfile = "Dockerfile"
